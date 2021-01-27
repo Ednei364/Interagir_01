@@ -1,37 +1,32 @@
-var button = document.querySelector('[data-js="button"]');
+//var button = document.querySelector('[data-js="button"]');
 var apresentar = document.querySelector('[data-js="apresentacao"]')
 var operacao = document.querySelector('[data-js="operacao"]')
 var number1 = document.querySelector('[data-js="number1"]')
 var number2 = document.querySelector('[data-js="number2"]')
 var result = document.querySelector('[data-js="observacao"]')
+var sum = document.querySelector('[data-js="+"]')
+var sub = document.querySelector('[data-js="-"]')
+var mul = document.querySelector('[data-js="*"]')
+var div = document.querySelector('[data-js="/"]')
 
 
-button.onclick = function() {
-    console.log(operacao)
-    switch(operacao.value){
-        case'+':
-            result.value = number1.value + number2.value
-            break;
-        case'-':
-            result.value = number1.value - number2.value
-            break;
-        case'*':
-            result.value = number1.value * number2.value
-            break;
-        case '/':
-            result.value = number1.value / number2.value
-            break;
-        default
-            break;
-        
-    }
-   operacao === +?
-
-
-//   var nome = prompt('Qual é o seu nome?');
-//   alert('Olá ' + nome + ', é um prazer te ver!');
+sum.onclick = function(){
+    res = +number1.value + +number2.value
+    result.value = `O resultado de ${number1.value}+${number2.value} é igual ${res} unidades`
 }
+sub.onclick = function(){
+    res = +number1.value - +number2.value
+    result.value = `O resultado de ${number1.value}-${number2.value} é igual ${res} unidades`
+}
+mul.onclick = function(){
+    res = +number1.value * +number2.value
+    result.value = `O resultado de ${number1.value}*${number2.value} é igual ${res} unidades`
+}
+div.onclick =function(){
+    res = +number1.value / +number2.value
+    result.value = `O resultado de ${number1.value}/${number2.value} é igual ${res} unidades`
 
+}
 apresentar.onclick = function(){
     var nome = prompt("Qual seu nome? ");
     var saldacao = confirm(`Olá ${nome}, tudo bem contigo?`)

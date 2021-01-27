@@ -11,20 +11,22 @@
     <button data-js="apresentacao">interagindo</button></br></br></br></br>
     
     <table> calculadora</br>        
-        <input data-js="number1" type="number" value="5" > Informe um numero</br>
-        <input data-js="number2"type="number" value="5"> Informe outro numero</br>
-        <div>Operação
-            <input data-js="operacao">
-            <select >
-                <option>+</option>
-                <option>-</option>
-                <option>*</option>
-                <option>/</option>
-            </select></br>
-        </div>  
-        <input data-js="observacao" type="number">              
-        <textarea ></textarea></br>
-        <button data-js="button">NÃO CLIQUE AQUI</button>   
+        <input data-js="number1" type="number" value="0" > Informe um numero</br>
+        <input data-js="number2"type="number" value="0"> Informe outro numero</br></br>
+        <button data-js="+">+</button>
+        <button data-js="-">-</button>
+        <button data-js="*">*</button>
+        <button data-js="/">/</button></br>        
+        <input data-js="observacao" type="text" id="obs">
+        <style>
+            input#obs{
+                 width:300px;
+                 height: 30px;
+                 }
+
+        </style>    
+                 
+ 
     </table>
              
     <script src="interagir.js"></script>
