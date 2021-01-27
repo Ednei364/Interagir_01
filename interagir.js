@@ -7,8 +7,27 @@ var result = document.querySelector('[data-js="observacao"]')
 
 
 button.onclick = function() {
-   // alert(`NÃO FALEI PRA NÃO CLICAR KKKK não tem nada aqui`)
-result.value = parseFloat(number1) + parseFloat(number2)
+    console.log(operacao)
+    switch(operacao.value){
+        case'+':
+            result.value = number1.value + number2.value
+            break;
+        case'-':
+            result.value = number1.value - number2.value
+            break;
+        case'*':
+            result.value = number1.value * number2.value
+            break;
+        case '/':
+            result.value = number1.value / number2.value
+            break;
+        default
+            break;
+        
+    }
+   operacao === +?
+
+
 //   var nome = prompt('Qual é o seu nome?');
 //   alert('Olá ' + nome + ', é um prazer te ver!');
 }
