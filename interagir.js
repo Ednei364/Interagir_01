@@ -1,8 +1,14 @@
 var button = document.querySelector('[data-js="button"]');
-var apresentar = document.querselectorall('[data-js="apresentacao"]')
+var apresentar = document.querySelector('[data-js="apresentacao"]')
+var operacao = document.querySelector('[data-js="operacao"]')
+var number1 = document.querySelector('[data-js="number1"]')
+var number2 = document.querySelector('[data-js="number2"]')
+var result = document.querySelector('[data-js="observacao"]')
+
 
 button.onclick = function() {
-    alert(`NÃO FALEI PRA NÃO CLICAR KKKK não tem nada aqui`)
+   // alert(`NÃO FALEI PRA NÃO CLICAR KKKK não tem nada aqui`)
+result.value = parseFloat(number1) + parseFloat(number2)
 //   var nome = prompt('Qual é o seu nome?');
 //   alert('Olá ' + nome + ', é um prazer te ver!');
 }
