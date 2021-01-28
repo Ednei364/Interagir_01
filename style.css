@@ -23,6 +23,10 @@ input{
     height: 30px;
     width: 100px;
 }
+input#obs{
+    width:400px;
+    height: 30px;
+    }
 label{
     background-color: rgba(209, 16, 16, 0.87);
 }
