@@ -24,12 +24,16 @@ button#op{
 }
 input{
     margin-left: 10px;
+    font-size: 20px;
     margin-top: 10px;
     height: 30px;
     width: 100px;
 }
+input#number{
+    font-size: 35px;
+}
 input#obs{
-    width:400px;
+    width:800px;
     height: 30px;
     }
 label{
