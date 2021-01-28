@@ -20,7 +20,7 @@ var div = document.querySelector('[data-js="/"]')
 
 sum.onclick = function(){
     res = +number1.value + +number2.value
-    result.value = `O resultado de (${number1.value})+(${number2.value} é igual ${res}) unidades`
+    result.value = `O resultado de (${number1.value})+(${number2.value}) é igual ${res} unidades`
     number1.value = res
 }
 sub.onclick = function(){
