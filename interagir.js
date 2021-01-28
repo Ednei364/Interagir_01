@@ -9,6 +9,14 @@ var sub = document.querySelector('[data-js="-"]')
 var mul = document.querySelector('[data-js="*"]')
 var div = document.querySelector('[data-js="/"]')
 
+// button.onclick= function(){
+//     var $fragment = document.createDocumentFragment();
+//     var $tr = document.createElement('tr');
+//     var $tdColor =  document.createElement('td');
+//     $tdColor.textContent = $('[data-js="number1"]').get().value;
+//     $tr.appendChild($tdColor);
+//     return $fragment.appendChild($tr);
+// }
 
 sum.onclick = function(){
     res = +number1.value + +number2.value
