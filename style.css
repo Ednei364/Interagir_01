@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
+    color: #323232;
+    border:none;
+}
+body{
+    background-color: rgb(58, 118, 214);
+}
+button{
+    background-color: rgb(5, 76, 121);
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    
+}
+input{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+}
+label{
+    background-color: rgba(209, 16, 16, 0.87);
+}
