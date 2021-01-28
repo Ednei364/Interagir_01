@@ -25,17 +25,17 @@ sum.onclick = function(){
 }
 sub.onclick = function(){
     res = +number1.value - +number2.value
-    result.value = `O resultado de ${number1.value}-${number2.value} é igual ${res} unidades`
+    result.value = `O resultado de (${number1.value})-(${number2.value}) é igual ${res} unidades`
     number1.value = res
 }
 mul.onclick = function(){
     res = +number1.value * +number2.value
-    result.value = `O resultado de ${number1.value}*${number2.value} é igual ${res} unidades`
+    result.value = `O resultado de (${number1.value})*(${number2.value}) é igual ${res} unidades`
     number1.value = res
 }
 div.onclick =function(){
     res = +number1.value / +number2.value
-    result.value = `O resultado de ${number1.value}/${number2.value} é igual ${res} unidades`
+    result.value = `O resultado de (${number1.value})/(${number2.value}) é igual ${res} unidades`
     number1.value = res
 
 }
