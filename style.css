@@ -11,7 +11,15 @@ body{
 }
 div#interagir{
     background-color: rgb(71, 117, 192);
+    left: 1000px;
+    height: 70px;
 }
+button#interagir{
+    right: 100px;
+    margin-top: 20px;
+    margin-left:500px;
+}
+
 div#calculadora{
     height: 240px;
     background-color: rgb(0, 153, 255);
@@ -27,9 +35,7 @@ button{
     height: 30px;
     width: 100px;
 }
-button#interagir{
-    right: 100px;
-}
+
 button#op{
     font-size: 30px;
 }
