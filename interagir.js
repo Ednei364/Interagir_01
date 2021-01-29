@@ -1,22 +1,28 @@
-//var button = document.querySelector('[data-js="button"]');
-var apresentar = document.querySelector('[data-js="apresentacao"]')
-var operacao = document.querySelector('[data-js="operacao"]')
-var number1 = document.querySelector('[data-js="number1"]')
-var number2 = document.querySelector('[data-js="number2"]')
-var result = document.querySelector('[data-js="observacao"]')
-var sum = document.querySelector('[data-js="+"]')
-var sub = document.querySelector('[data-js="-"]')
-var mul = document.querySelector('[data-js="*"]')
-var div = document.querySelector('[data-js="/"]')
+const button = document.querySelector('[data-js="button"]');
+const apresentar = document.querySelector('[data-js="apresentacao"]')
+const operacao = document.querySelector('[data-js="operacao"]')
+const number1 = document.querySelector('[data-js="number1"]')
+const number2 = document.querySelector('[data-js="number2"]')
+const result = document.querySelector('[data-js="observacao"]')
+const sum = document.querySelector('[data-js="+"]')
+const sub = document.querySelector('[data-js="-"]')
+const mul = document.querySelector('[data-js="*"]')
+const div = document.querySelector('[data-js="/"]')
+const name = document.querySelector('[data-js="nome"]')
+const idade = document.querySelector('[data-js="idade"]')
+const nascimento = document.querySelector('[data-js=nascimento]')
 
-// button.onclick= function(){
-//     var $fragment = document.createDocumentFragment();
-//     var $tr = document.createElement('tr');
-//     var $tdColor =  document.createElement('td');
-//     $tdColor.textContent = $('[data-js="number1"]').get().value;
-//     $tr.appendChild($tdColor);
-//     return $fragment.appendChild($tr);
-// }
+button.onclick= function(){
+    name.value = "não"
+    idade.value = "tem"
+    nascimento.value="nada configurado ainda kk"
+    //  var $fragment = document.createDocumentFragment();
+    //  var $tr = document.createElement('tr');
+    //  var $tdColor =  document.createElement('td');
+    //  $tdColor.textContent = $('[data-js="number1"]').get().value;
+    //  $tr.appendChild($tdColor);
+    //  return $fragment.appendChild($tr);
+ }
 
 sum.onclick = function(){
     res = +number1.value + +number2.value

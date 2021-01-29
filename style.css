@@ -60,9 +60,14 @@ label{
 }
 label#color{
     color: rgb(2, 88, 24);
-    width:400px;
     height: 3000px;
     width: 1000px;
 
 
+}
+label#informa{
+    font-size: 35px;
+    border: black;
+    width: 1000px;
+    height: 4000;
 }
