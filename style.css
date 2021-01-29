@@ -7,8 +7,17 @@
     border:none;
 }
 body{
-    background-color: rgb(58, 118, 214);
+    background-color: black;
 }
+div#interagir{
+    background-color: rgb(71, 117, 192);
+}
+div#calculadora{
+    height: 240px;
+    background-color: rgb(0, 153, 255);
+    margin-top: 10px;
+}
+
 button{
     background-color: rgb(5, 76, 121);
     font-size: 20px;
@@ -17,7 +26,9 @@ button{
     margin-top: 10px;
     height: 30px;
     width: 100px;
-    
+}
+button#interagir{
+    right: 100px;
 }
 button#op{
     font-size: 30px;
